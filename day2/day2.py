@@ -13,7 +13,6 @@ with open('day2.txt', 'r') as f:
     counter2 = 0
     for line in f:
         report = line.split()
-
         if isValid(report):
             counter1 += 1
             counter2 += 1
